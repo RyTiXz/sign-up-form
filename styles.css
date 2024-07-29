@@ -45,6 +45,16 @@ body {
     width: 66.67%;
     width: calc(100% / 1.5);
     height: 100vh;
-    background-color: antiquewhite;
-    opacity: 0.5;
+    background-color: #faebd7;
+    /* opacity: 0.5; */
+}
+
+.content-header {
+    background-color: #ffe5c4;
+    height: 15vh;
+}
+
+.content-header > p {
+    padding: 10px;
+    display: block;
 }
