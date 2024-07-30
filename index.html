@@ -9,23 +9,64 @@
 <body>
     <div class="main-website">
         <div class="picture-area">
+            <div class="surfing-coders">
+                <div class="logo-background"></div>
+                <div class="logo-text">
+                    <p class="text">Sufing <br> Coders</p>
+                    <img src="./pictures/codesandbox_faebd7.svg" alt="coding-icon">
+                </div>
+            </div>
+            <div class="picture-footer">
+                <p>Photo by <a href="https://unsplash.com/@rbwilson">Ryan Wilson</a> on <a href="https://unsplash.com/s/photos/beach-background">Unsplash</a></p>
+            </div>
         </div>
         <div class="content-area">
             <div class="content-header">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem enim illo 
-                    illum deleniti natus voluptates praesentium, quos accusamus eveniet 
-                    officia error obcaecati mollitia beatae</p>
+                <p>Escape the daily grind and join us for an unforgettable surfing retreat designed exclusively for coders. Recharge your mind and body as you ride the waves by day and code by night.</p>
             </div>
-            <div class="form-area">
-                <div class="form">
-
+            <div class="middle-part">
+                <div class="form-area">
+                    <div class="form">
+                        <div class="create-account">
+                            <p class="create-account-text">Create your account</p>
+                            <p>Already have an account? <a href="url">Log in</a></p>
+                        </div>
+                        <form action="">
+                            <label for="name">FULL NAME* </label>
+                            <input type="text" name="name" id="name" required minlength="4" maxlength="50">
+                            <label for="email">EMAIL*</label>
+                            <input type="email" name="email" id="email" required minlength="4" maxlength="50">
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="tel" name="phoneNumber" id="phoneNumber">
+                            <label for="password">PASSWORD*</label>
+                            <input 
+                            type="password" 
+                            name="password" 
+                            id="password" 
+                            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$" 
+                            required>
+                            <label for="cpassword">CONFIRM PASSWORD*</label>
+                            <input 
+                            type="password" 
+                            name="cpassword" 
+                            id="cpassword" 
+                            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$" 
+                            required>
+                            <label for="submit"></label>
+                            <input class="submit-button" type="submit" name="submit" id="submit" value="Create Account">
+                        </form>
+                    </div>
                 </div>
-                <div class="text">
-
+                <div class="password-hints">
+                    <p> ● 6 to 12 characters in length <br>
+                        ● Must have at least one uppercase letter <br>
+                        ● Must have at least one lower case letter <br>
+                        ● Must have at least one digit <br>
+                        ● Should contain other characters</p>
                 </div>
-                <div class="surfer">
-
-                </div>
+            </div>
+            <div class="footer-text">
+                <p>Don't miss out on this unique opportunity to balance work and play. <br>Reserve your spot today and get ready to Surf & Code!</p>
             </div>
         </div>
     </div>
